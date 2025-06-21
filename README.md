@@ -79,34 +79,9 @@ Proyek ini masih dalam tahap pengembangan dan terbuka untuk kontribusi. Untuk be
 4. Push ke branch (`git push origin feature/AmazingFeature`)
 5. Buat Pull Request
 
-## 📝 Roadmap
-
-- [ ] Implementasi backend API
-- [ ] Sistem autentikasi yang lebih robust
-- [ ] Manajemen anggota koperasi
-- [ ] Modul keuangan dan akuntansi
-- [ ] Laporan dan analitik
-- [ ] Mobile app companion
-
-## 📄 Lisensi
-
-Proyek ini dilisensikan di bawah [MIT License](LICENSE) - lihat file LICENSE untuk detail lebih lanjut.
-
 ## 👨‍💻 Pengembang
 
 - **ratrifa** - *Initial work* - [ratrifa](https://github.com/ratrifa)
-
-## 📞 Kontak
-
-Jika Anda memiliki pertanyaan atau saran, silakan buat issue di repository ini atau hubungi pengembang melalui GitHub.
-
-## 🙏 Acknowledgments
-
-- Terima kasih kepada komunitas open source
-- Inspirasi dari sistem manajemen koperasi yang sudah ada
-- Feedback dari pengguna dan kontributor
-
----
 
 **Catatan**: Proyek ini masih dalam tahap pengembangan aktif. Fitur dan dokumentasi akan terus diperbarui seiring dengan perkembangan proyek.
 ```
