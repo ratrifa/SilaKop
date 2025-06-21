@@ -1,90 +1,86 @@
 # SilaKop
 
-> **Status: 🚧 Dalam Tahap Pengembangan**
+> **Status: 🚧 Under Development**
 
-SilaKop adalah sistem manajemen koperasi berbasis web yang dirancang untuk memudahkan pengelolaan administrasi dan operasional koperasi.
+SilaKop is a web-based cooperative management system designed to simplify the administration and daily operations of cooperatives.
 
-## 📋 Deskripsi
+## 📋 Description
 
-SilaKop merupakan aplikasi web yang menyediakan dashboard administratif untuk mengelola berbagai aspek koperasi, termasuk manajemen anggota, keuangan, dan operasional harian. Sistem ini dibangun dengan teknologi web modern untuk memberikan pengalaman pengguna yang optimal.
+SilaKop is a web application that provides an administrative dashboard to manage various aspects of a cooperative, including member management, finances, and daily operations. The system is built using modern web technologies to offer an optimal user experience.
 
-## ✨ Fitur
+## ✨ Features
 
-- 🏠 **Dashboard Admin** - Panel kontrol utama untuk administrator
-- 👤 **Sistem Login** - Autentikasi pengguna yang aman
-- 📊 **Manajemen Data** - Pengelolaan data koperasi
-- 📱 **Responsive Design** - Tampilan yang optimal di berbagai perangkat
-- 🎨 **UI/UX Modern** - Antarmuka yang user-friendly
+- 🏠 **Admin Dashboard** – Main control panel for administrators  
+- 👤 **Login System** – Secure user authentication  
+- 📊 **Data Management** – Efficient cooperative data handling  
+- 📱 **Responsive Design** – Optimized display across devices  
+- 🎨 **Modern UI/UX** – User-friendly interface  
 
-## 🛠️ Teknologi
+## 🛠️ Technologies
 
-- **Frontend**: HTML, CSS, JavaScript
-- **Styling**: Custom CSS dengan layout responsif
-- **Development**: VS Code
+- **Frontend**: HTML, CSS, JavaScript  
+- **Styling**: Custom CSS with responsive layout  
+- **Development Environment**: VS Code  
 
-## 📁 Struktur Proyek
+## 📁 Project Structure
 
 ```
 SilaKop/
-├── .vscode/              # Konfigurasi VS Code
-├── .gitattributes        # Konfigurasi Git
-├── index.html           # Halaman utama/login
-├── dashboard-admin.html # Dashboard administrator
-└── README.md           # Dokumentasi proyek
+├── .vscode/              # VS Code configuration
+├── .gitattributes        # Git configuration
+├── index.html            # Main/Login page
+├── dashboard-admin.html  # Administrator dashboard
+└── README.md             # Project documentation
 ```
 
-## 🚀 Cara Menjalankan
+## 🚀 Getting Started
 
-### Prasyarat
-- Web browser modern (Chrome, Firefox, Safari, Edge)
-- Web server lokal (opsional untuk development)
+### Prerequisites
+- Modern web browser (Chrome, Firefox, Safari, Edge)
+- Local web server (optional for development)
 
-### Instalasi
+### Installation
 
-1. **Clone repository**
+1. **Clone the repository**
    ```bash
    git clone https://github.com/ratrifa/SilaKop.git
    cd SilaKop
    ```
 
-2. **Buka dengan browser**
-   - Buka file `index.html` langsung di browser, atau
-   - Gunakan live server untuk development yang lebih baik
+2. **Open with browser**
+   - Open the `index.html` file directly in your browser, or  
+   - Use a live server for a better development experience
 
-3. **Menggunakan Live Server (Recommended)**
+3. **Using Live Server (Recommended)**
    ```bash
-   # Jika menggunakan VS Code dengan Live Server extension
-   # Klik kanan pada index.html → "Open with Live Server"
+   # If using VS Code with the Live Server extension
+   # Right-click on index.html → "Open with Live Server"
    
-   # Atau menggunakan Python
+   # Or using Python
    python -m http.server 8000
-   
-   # Atau menggunakan Node.js
+
+   # Or using Node.js
    npx serve .
    ```
 
-## 📖 Penggunaan
+## 📖 Usage
 
-1. Buka `index.html` untuk mengakses halaman login
-2. Setelah login, Anda akan diarahkan ke `dashboard-admin.html`
-3. Gunakan dashboard untuk mengelola data koperasi
+1. Open `index.html` to access the login page  
+2. After logging in, you will be redirected to `dashboard-admin.html`  
+3. Use the dashboard to manage cooperative data  
 
-## 🤝 Kontribusi
+## 🤝 Contributing
 
-Proyek ini masih dalam tahap pengembangan dan terbuka untuk kontribusi. Untuk berkontribusi:
+This project is still under development and open to contributions. To contribute:
 
-1. Fork repository ini
-2. Buat branch fitur baru (`git checkout -b feature/AmazingFeature`)
-3. Commit perubahan Anda (`git commit -m 'Add some AmazingFeature'`)
-4. Push ke branch (`git push origin feature/AmazingFeature`)
-5. Buat Pull Request
+1. Fork this repository  
+2. Create a new feature branch (`git checkout -b feature/AmazingFeature`)  
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)  
+4. Push to the branch (`git push origin feature/AmazingFeature`)  
+5. Create a Pull Request  
 
-## 👨‍💻 Pengembang
+## 👨‍💻 Developer
 
-- **ratrifa** - *Initial work* - [ratrifa](https://github.com/ratrifa)
+- **ratrifa** – *Initial work* – [ratrifa](https://github.com/ratrifa)
 
-**Catatan**: Proyek ini masih dalam tahap pengembangan aktif. Fitur dan dokumentasi akan terus diperbarui seiring dengan perkembangan proyek.
-```
-
-README.md ini mencakup semua informasi penting untuk repository SilaKop Anda [^1]. File ini memberikan gambaran yang jelas tentang proyek, cara instalasi, penggunaan, dan bagaimana orang lain dapat berkontribusi. Struktur ini mengikuti standar industri untuk dokumentasi proyek open source dan akan membantu pengunjung repository memahami tujuan dan cara menggunakan proyek Anda.
-
+**Note**: This project is under active development. Features and documentation will be continuously updated as the project evolves.
